@@ -12,5 +12,6 @@ cd ..
 rm -r mods 
 rm *.gitignore   
 rm thumbnail.png  
-rm README.md  
+rm README.md
+rm *.bat
 rm *.sh
