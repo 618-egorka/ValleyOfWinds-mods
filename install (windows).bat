@@ -13,3 +13,4 @@ rd mods
 echo #Установка завершена) > "installation completed.md"  
 erase *.gitignore 
 erase *.bat
+erase thumbnail.png
