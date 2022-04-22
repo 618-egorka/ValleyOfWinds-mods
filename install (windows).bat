@@ -10,7 +10,8 @@ copy /y *.jar %appdata%\.minecraft\mods\*.jar
 erase *.jar  
 cd ..  
 rd mods  
-echo #Установка завершена) > "installation completed.md"  
+msg * "Сборка установлена)" >nul  
 erase *.gitignore 
-erase *.bat
 erase thumbnail.png
+erase README.md
+erase *.bat
