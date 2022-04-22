@@ -15,4 +15,5 @@ msg * "Сборка установлена)" >nul
 erase *.gitignore   
 erase thumbnail.png  
 erase README.md  
+erase *.sh
 erase *.bat
