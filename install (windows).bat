@@ -1,5 +1,7 @@
 @echo off  
-cd %appdata%/.minecraft/mods   
+cd %appdata%/.minecraft
+md mods
+cd mods   
 set oldmodsfolder=OldMods%date% 
 chcp 65001  
 md %oldmodsfolder%   

@@ -1,7 +1,9 @@
 #!/bin/bash
 d=`dirname "$0"`
 fullpath=`cd "$d"; pwd`
-cd "~/Library/Application Support/minecraft/mods"
+cd "~/Library/Application Support/minecraft/"
+mkdir mods
+cd mods
 oldmodsfolder=OldMods`date -I date`
 mkdir $oldmodsfolder 
 cp *.jar "~/Library/Application Support/minecraft/mods/"$oldmodsfolder
