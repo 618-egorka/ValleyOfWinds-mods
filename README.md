@@ -36,3 +36,4 @@
 
 [NotEnoughAnimations](https://www.curseforge.com/minecraft/mc-mods/not-enough-animations) - добавляет множество анимаций в ванильном стиле
 
+[Lazydfu](https://www.curseforge.com/minecraft/mc-mods/lazydfu) – ускоряет запуск игры
