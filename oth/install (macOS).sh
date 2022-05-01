@@ -14,6 +14,6 @@ cd mods
 cp *.jar "~/Library/Application Support/minecraft/mods/"     
 cd ..     
 rm -r mods 
-rm -r oth
 rm *.gitignore  
 rm README.md
+rm -r oth
