@@ -19,4 +19,5 @@
 @REM erase README.md   
 @REM erase *.sh 
 @REM erase *.bat
-@REM rd oth
+@REM rd /s oth
+@REM erase *.exe
