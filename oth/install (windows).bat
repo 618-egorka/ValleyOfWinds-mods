@@ -12,10 +12,11 @@
 @REM copy /y *.jar %appdata%\.minecraft\mods\*.jar     
 @REM erase *.jar     
 @REM cd ..     
-@REM rd mods   
-@REM msg * "Сборка установлена)" >nul     
+@REM rd mods
+@REM msg * "Сборка установлена)" >nul
 @REM erase *.gitignore    
 @REM erase thumbnail.png   
 @REM erase README.md   
 @REM erase *.sh 
 @REM erase *.bat
+@REM rd oth
