@@ -4,10 +4,10 @@ fullpath=`cd "$d"; pwd`
 cd "~/Library/Application Support/minecraft/"
 mkdir mods
 cd mods
-oldmodsfolder=OldMods`date -I date`
-mkdir $oldmodsfolder 
-cp *.jar "~/Library/Application Support/minecraft/mods/"$oldmodsfolder
+mkdir oldMods
+cp *.jar "~/Library/Application Support/minecraft/mods/oldMods"
 rm  "~/Library/Application Support/minecraft/mods/"*.jar
+rm  "~/Library/Application Support/minecraft/mods/oldMods/"FE*.jar
 cd $fullpath/mods
 cp *.jar "~/Library/Application Support/minecraft/mods/"     
 cd ..     
